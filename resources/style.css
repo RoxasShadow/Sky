@@ -1,0 +1,26 @@
+body {
+	background-color: #000;
+	color: #fff;
+}
+h1 {
+	text-align: center;
+}
+#cloud {
+	background: url('bigcloud.png') repeat-x fixed center 100px;
+}
+#mincloud {
+	background: url('mincloud.png') repeat-x fixed center 240px;
+}
+#sun {
+	position: fixed;
+	top: 0px;
+	left: 0%;
+}
+.full {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
