@@ -4,10 +4,12 @@ function Sky() {
 	var defaultmsg;
 	
 	this.init = function() {
-		i = Math.round(Math.floor(Math.random()*$(window).width()));
-		sky.offset = new Array(i, i);
+		sky.offset = new Array(sky.getOffset(), sky.getOffset(), sky.getOffset());
 		sky.counter = 0;
 		sky.defaultmsg = 'There\'s something that bugs me...';
+	}
+	this.getOffset = function() {
+		return Math.round(Math.floor(Math.random()*$(window).width()))
 	}
 	this.s1 = function() {
 		--sky.offset[0];

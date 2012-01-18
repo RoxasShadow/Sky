@@ -28,7 +28,7 @@ h1 {
 }
 .bottom {
 	background: url('empty-trash.png') no-repeat;
-	width: 100%;
+	width: 128px;
 	height: 8em;
 	position: absolute;
 	bottom: 0;
